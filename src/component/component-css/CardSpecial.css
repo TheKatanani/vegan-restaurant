@@ -1,0 +1,39 @@
+.CardSpecial{
+    width: 384px;
+    height: 455px;
+    background: rgba(160, 128, 64, 0.3);
+    border: 1px dashed #FFCE6D;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CardSpecial img{
+    width: 80px;
+    height: 80px;
+}
+.CardSpecial h3{
+    width: 145px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117.3%;
+    /* or 28px */
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin: 20px auto;
+}
+.CardSpecial p{
+    width: 268px;
+    height: 128px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.3%;
+    /* or 22px */
+    text-align: justify;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}

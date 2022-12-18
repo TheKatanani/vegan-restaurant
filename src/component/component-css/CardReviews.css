@@ -1,0 +1,40 @@
+.CardReviews{
+    padding: 50px;
+    min-width: 732px;
+    height: 385px;
+    background: rgba(16, 20, 24, 0.7);
+    margin: 20px 0;
+}
+.CardReviews .containt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.CardReviews .containt img{
+    width: 104px;
+    height: 98.33px;
+    border: 1px solid #000000;
+}
+.CardReviews .containt h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 155.3%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+.CardReviews .containt p{
+    color:#FFFFFC;
+}
+.CardReviews  q{
+    position: absolute;
+    width: 596px;
+    height: 148px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin: 30px 0; 
+}

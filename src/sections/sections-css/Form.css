@@ -1,0 +1,36 @@
+.Form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 130px;
+    padding: 20px 0;
+}
+.Form div{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.Form>div p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+.Form input{
+    width: 407px;
+    height: 55px;
+    border: 1px solid #FFFFCC;
+    background-color: transparent;
+    padding: 15px 25px 12PX 18PX;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 155.3%;
+    /* or 19px */
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+.Form button{
+    height: 55PX;
+}

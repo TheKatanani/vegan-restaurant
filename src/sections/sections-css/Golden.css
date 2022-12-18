@@ -1,0 +1,105 @@
+.Golden{
+    height: 375px;
+    background: rgba(16, 20, 24, 0.7);
+    color: #fff;
+}
+.Golden .containt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    padding: 60px 0 40px;
+}
+
+.Golden .containt .logoBox{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.Golden .containt .logoBox h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFCCC;
+}
+.Golden .containt p{
+    margin: 12px 0 30px 35px;
+    width: 302px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.3%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+.Golden .containt .icons{
+    display: flex;
+    gap: 10px;
+    margin-left: 35px;
+}
+/* #333539; */
+.Golden .containt .icons span{
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    padding: 7px;
+    position: relative;
+    z-index: 1;
+}
+.Golden .containt .icons span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-color: #333539;
+    opacity: 0.3;
+}
+.Golden .containt .icons span svg{
+    box-sizing: unset;
+}
+.Golden .containt h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    padding: 30px 0;
+}
+.Golden .containt ul{
+    display: block;
+}
+.Golden .containt ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 168.8%;
+    /* or 27px */
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+.Golden .containt span+p{
+    font-size: 16px;
+    line-height: 155.3%;
+    /* or 25px */
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    padding: 0;
+    
+    margin: 8px 0 15px 25px;
+}
+.Golden .containt .box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+.Golden .containt .box span{
+    transform: translateY(-7px);
+}

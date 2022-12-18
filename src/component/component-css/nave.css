@@ -1,0 +1,55 @@
+nav{
+    width: 988px;
+    height: 76px;
+    background: #101418;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:33px;
+}
+ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFCC;
+}
+button.Book{
+    width: 272px;
+    height: 76px;
+    background: #A08040;
+    border: 7px solid #A08040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+button.Book::before,button.Book::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+button.Book::after{
+    right: 35px;
+}
+button.Book::before{
+    left: 35px;
+}

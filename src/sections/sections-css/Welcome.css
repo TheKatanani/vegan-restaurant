@@ -1,0 +1,46 @@
+.welcome{
+    background:url('../../images/Rectangle\ 1.png') ;
+    background-size: cover;
+    width: 100%;
+    height: 894px;
+    position: relative;
+}
+.welcome::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(16, 20, 24, 0) 0%, #101418 100%);
+}
+.welcome nav{
+    position: absolute;
+    top: 131px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.welcome .contint {
+    position:absolute;
+    top:419px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.welcome .contint h1{
+    width: 355px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFCCC;
+    margin: 0px auto;
+
+}
+.welcome .contint p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    width: 537px;
+    height: 14px;
+    line-height: 0.4;
+    margin: 40px auto;
+}

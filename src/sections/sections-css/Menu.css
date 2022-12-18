@@ -1,0 +1,9 @@
+.Menu{
+    padding: 50px 0;
+}
+.Menu .contint{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}

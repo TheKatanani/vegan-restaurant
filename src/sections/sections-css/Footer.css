@@ -1,0 +1,15 @@
+footer{
+    background: rgba(16, 20, 24, 0.7);
+    height: 74px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 14px 0;
+}
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+}

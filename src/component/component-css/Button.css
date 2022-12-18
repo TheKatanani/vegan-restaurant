@@ -1,0 +1,16 @@
+.main_btn{
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 119.3%;
+    padding: 17px 53px 21px;
+    text-align: center;
+    color: #FFFFFF;   
+    border: 2px solid #FFFCCC;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* #A08040 */
+.main_btn:hover{
+    background-color:#A08040  ;
+}

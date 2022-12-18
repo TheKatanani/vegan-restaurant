@@ -1,0 +1,54 @@
+.Flat{
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 100px;
+    align-items: center;
+    background: rgba(16, 20, 24, 0.7);
+}
+.Flat div{
+    text-align: center;
+}
+/* .Flat div.containt{
+    width: 400px;
+} */
+.Flat h3{
+    width: 466px;
+    height: 70px;
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFC;
+    margin: 0 auto;
+}
+.Flat p{
+    height: 38px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFCE6D;
+    margin: 30px auto 18px;
+}
+.Flat button{
+    margin: 10px auto;
+}
+.Flat .imgs{
+    position: relative;
+}
+.Flat .imgs img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+.Flat .imgs img:first-child{
+    transform: translate(-35%,-48%) rotate(7deg);
+}
+.Flat .imgs img:last-child{
+    transform: translate(-65%,-50%);
+}

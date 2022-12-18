@@ -1,0 +1,60 @@
+
+.CardBlogs{
+    width: 410px;
+    height: 526.72px;
+    background: rgba(16, 20, 24, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+}
+.CardBlogs img{
+    width: 100%;
+    height: 299px;
+}
+.CardBlogs img +div{
+    padding: 20px 44px;
+}
+.CardBlogs img +div.flap{
+    order: -1;
+}
+.CardBlogs h4{
+    padding: 20px 0 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 117.3%;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+.CardBlogs p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.3%;
+    /* or 25px */
+    text-transform: capitalize;
+    color: #FFFFFC;
+    padding: 15px 0 30px;
+}
+.CardBlogs  q{
+    position: absolute;
+    width: 596px;
+    height: 148px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin: 30px 0; 
+}
+.CardBlogs button{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.3%;
+    /* or 22px */
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    cursor: pointer;
+    border-bottom: 1px solid #FFCE6D;
+    background-color: transparent;
+
+}

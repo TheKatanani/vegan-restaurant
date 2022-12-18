@@ -1,0 +1,10 @@
+.Reviews{
+    padding: 50px 0;
+    overflow: hidden;
+}
+.Reviews .containt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

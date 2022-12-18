@@ -1,0 +1,25 @@
+.CardStatistics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    text-align: center;
+}
+.CardStatistics img{
+    width: 85.66px;
+    height: 79.01px;
+}
+.CardStatistics h4{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 117.3%;
+    /* or 56px */
+    color: #FFCE6D;
+}
+.CardStatistics p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117.3%;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}

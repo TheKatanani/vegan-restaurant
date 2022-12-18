@@ -1,0 +1,34 @@
+.CardMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0;
+    color: #FFFFFF;
+}
+
+.CardMenu h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.CardMenu div{
+    width: 210px;
+    height: 33px;
+    margin: 0 15px;
+}
+.CardMenu p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.CardMenu span{
+    width: 123px;
+    height: 2px;
+    background-color: #FFCE6D;
+    border: 1px solid #FFCE6D;
+    margin: 0 12px 0 0;
+}
+.CardMenu span + p{
+    color:#FFCE6D
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+.Title h2{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 117.3%;
+    /* or 42px */
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFCE6D;
+    margin: 0 auto 15px;
+}
+.Title p{
+    width: 694px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 117.3%;
+    /* or 35px */
+    text-transform: capitalize;
+    color: #FFFFFC;
+    margin: 0 auto;
+    text-align: center;
+}
+.Title.start h2{
+    margin: 0 0 ;
+    text-align: start;
+}
+.Title.start p{
+    margin: 15px 0;
+    text-align: start;
+}
