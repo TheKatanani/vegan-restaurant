@@ -8,15 +8,16 @@
     align-items: center;
     gap: 50px;
 }
-@media (max-width: 992px) {
-    .Reviews .containt{
-        flex-wrap: wrap;
-        justify-content: unset;
-    }
-}
+
 @media (max-width: 1200px) {
     .Reviews .containt{
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+@media (max-width: 992px) {
+    .Reviews .containt{
+        flex-wrap: wrap;
+        justify-content: unset;
     }
 }
