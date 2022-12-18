@@ -31,3 +31,19 @@
     margin: 15px 0;
     text-align: start;
 }
+
+@media (max-width: 768px) {
+    .Title.start h2{
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+    .Title.start p{
+        width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .Title p{
+        width: unset;
+        font-size: 22px;
+    }
+}

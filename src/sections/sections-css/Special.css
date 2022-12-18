@@ -15,3 +15,13 @@
     width: 1350px;
 }
 }
+@media (max-width: 992px) {
+    .Special{
+        height: auto;
+        text-align: center;
+    }
+    .Special .contint{
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+}

@@ -7,3 +7,8 @@
     align-items: center;
     gap: 30px;
 }
+@media (max-width: 992px) {
+    .Blogs .containt{
+        flex-wrap: wrap;
+    }
+}

@@ -2,6 +2,11 @@ import './component-css/nave.css'
 import Logo from './Logo';
 export default function Nave() {
     return (<>
+    <div className="icon-nav">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
     <nav>
         <div className="logo">
             <Logo/>

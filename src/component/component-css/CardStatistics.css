@@ -23,3 +23,13 @@
     text-transform: capitalize;
     color: #FFFFFC;
 }
+@media (max-width: 768px) {
+    .CardStatistics{
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
+    }
+    .CardStatistics img{
+        margin-right: 15px;
+    }
+}

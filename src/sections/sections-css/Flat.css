@@ -52,3 +52,27 @@
 .Flat .imgs img:last-child{
     transform: translate(-65%,-50%);
 }
+
+@media (max-width: 768px) {
+    .Flat{
+        height: unset;
+    }
+    .Flat img{
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .Flat{
+        gap: 0;
+    }
+    .Flat h3{
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .Flat p{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+}

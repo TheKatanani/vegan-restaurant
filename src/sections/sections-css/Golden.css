@@ -10,11 +10,27 @@
     gap: 70px;
     padding: 60px 0 40px;
 }
-
 .Golden .containt .logoBox{
     display: flex;
     align-items: center;
     justify-content: start;
+    gap: 15px;
+}
+@media (max-width: 992px) {
+    .Golden .containt .logoBox{
+        display: block;
+    }
+    .Golden .containt .logoBox h2{
+        margin-top: 20px;
+    }
+    .Golden{
+        height: auto;
+        text-align: center;
+    }
+    .Golden .containt{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 .Golden .containt .logoBox h2{
     font-weight: 700;
@@ -102,4 +118,10 @@
 }
 .Golden .containt .box span{
     transform: translateY(-7px);
+}
+
+@media (max-width: 992px) {
+    .Golden .containt .icons{
+        justify-content: center;
+    }
 }

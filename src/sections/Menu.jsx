@@ -16,7 +16,7 @@ import Img11 from '../images/unsplash_ThLVnKdeH1k (1).png'
 import Img12 from '../images/unsplash_ThLVnKdeH1k.png'
 import Container from '../component/Container';
 export default function Menu() {
-    return (<div className="Menu">
+    return (<div className="Menu"id='Menu'>
         <Container>
         <Title title="Straight From Kitchen" description="Our Menu"/>
             <div className="contint">

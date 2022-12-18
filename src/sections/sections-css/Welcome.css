@@ -44,3 +44,20 @@
     line-height: 0.4;
     margin: 40px auto;
 }
+@media (max-width: 992px) {
+    .welcome .contint h1{
+        font-size: 35px;
+    }
+    .welcome .contint p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 667px) {
+    .welcome .contint h1{
+        font-size: 25px;
+    }
+    .welcome .contint p{
+        font-size: 12px;
+        width:auto
+    }
+}

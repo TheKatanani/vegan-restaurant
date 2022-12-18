@@ -38,3 +38,21 @@
     color: #FFFFFC;
     margin: 30px 0; 
 }
+
+@media (max-width: 992px) {
+    .CardReviews{
+        padding: 15px;
+        max-width:unset;
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* .CardReviews .containt{
+        justify-content: center;
+    } */
+    .CardReviews  q{
+        width: 90%;
+        margin: 20px auto 0;
+        text-align: center;
+        padding: 15px;
+    }
+}

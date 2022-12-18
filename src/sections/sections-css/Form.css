@@ -34,3 +34,18 @@
 .Form button{
     height: 55PX;
 }
+
+@media (max-width: 992px) {
+    .Form{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .Form div:last-child{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Form div:last-child input{
+        width: 350px;
+    }
+}

@@ -14,3 +14,9 @@
 .main_btn:hover{
     background-color:#A08040  ;
 }
+@media (max-width: 768px) {
+    .main_btn{
+        font-size: 16px;
+        padding: 13px 40px 16px;
+}
+}

@@ -6,7 +6,7 @@ import Title from "../component/Title";
 import CardBlogs from "../component/CardBlogs";
 export default function Blogs() {
     return (
-        <div className="Blogs">
+        <div className="Blogs"id="Bloges">
                 <Title title="Blogs" description="words from our food lovers"/>
                 <div className="containt">
                 <CardBlogs img={Img1} title="Cooking Dining Experience" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin"/>

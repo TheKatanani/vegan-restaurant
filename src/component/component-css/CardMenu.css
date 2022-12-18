@@ -32,3 +32,9 @@
 .CardMenu span + p{
     color:#FFCE6D
 }
+@media (max-width: 768px) {
+    .Menu .contint .CardMenu span{
+        flex-wrap: wrap;
+        width: 50px;
+    }
+}

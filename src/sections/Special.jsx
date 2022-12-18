@@ -7,7 +7,7 @@ import './sections-css/Special.css'
 import Container from '../component/Container';
 export default function Special() {
     return (<>
-        <div className="Special">
+        <div className="Special" id='Special'>
             <Container>
             <Title description="What Makes Us Special" title='Special'/>
             <div className="contint">

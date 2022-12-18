@@ -3,7 +3,7 @@ import Nave from "../component/Nave";
 import './sections-css/Welcome.css'
 export default function Welcome() {
     return (<>
-        <div className="welcome">
+        <div className="welcome" id="Home">
             <Nave/>
             <div className="contint">
                 <h1>Welcome To Golden view Dine</h1>

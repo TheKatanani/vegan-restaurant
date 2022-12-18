@@ -15,7 +15,7 @@ import Footer from '../sections/Footer';
 export default function Home() {
     return (<>
     <Welcome/>
-    <SectionsComp title="About us" description="Discover the taste of worldclass vegan dishes from the kitchen of Go Green Dine"img={ImgAbout}/>
+    <SectionsComp title="About us"id="About" description="Discover the taste of worldclass vegan dishes from the kitchen of Go Green Dine"img={ImgAbout}/>
     <Special/>
     <Menu/>
     <Flat/>
