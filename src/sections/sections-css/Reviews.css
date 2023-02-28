@@ -1,12 +1,36 @@
 .Reviews{
     padding: 50px 0;
-    overflow: hidden;
 }
 .Reviews .containt{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 50px;
+    overflow-x: scroll;
+}
+.containt:first-child{
+    overflow: hidden;
+}
+/* Style for the entire scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+  height: 7px;
+  border-radius: 6px;
+}
+
+/* Style for the track */
+::-webkit-scrollbar-track {
+  background: #eee; /* color of the track */
+}
+
+/* Style for the thumb */
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+  background: #888; /* color of the thumb */
+}
+
+/* Style for the thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the thumb on hover */
 }
 
 @media (max-width: 1200px) {

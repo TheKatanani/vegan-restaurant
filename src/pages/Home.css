@@ -11,7 +11,5 @@ body {
     font-family: 'Roboto';
     background: url("../images/mainImg.png");
     background-color: black;
-    height: 2000px;
     background-size: cover;
-    overflow-x: hidden;
 }

@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Style for the entire scrollbar */
+::-webkit-scrollbar {
+  width: 3px; /* width of the scrollbar */
+}
+
+/* Style for the track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* Style for the thumb */
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the thumb */
+}
+
+/* Style for the thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the thumb on hover */
+}
