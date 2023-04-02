@@ -13,7 +13,7 @@
 .Golden .containt .logoBox{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 15px;
 }
 @media (max-width: 992px) {
@@ -113,7 +113,7 @@
 .Golden .containt .box{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 8px;
 }
 .Golden .containt .box span{
